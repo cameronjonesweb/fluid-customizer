@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: Fluid Customizer
  * Plugin URI: https://cameronjones.x10.mx/projects/fluid-customizer
@@ -20,6 +19,8 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
  */
+
+defined( 'ABSPATH' ) or die();
 
 class cameronjonesweb_fluid_customizer {
 
