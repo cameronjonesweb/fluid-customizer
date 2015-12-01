@@ -4,7 +4,7 @@
  * Plugin Name: Fluid Customizer
  * Plugin URI: https://cameronjones.x10.mx/projects/fluid-customizer
  * Description: Preview your site for a variety of different devices by resizing your Customizer sidebar with a simple click and drag
- * Version: 1.0
+ * Version: 1.0.0
  * Author: Cameron Jones
  * Author URI: http://cameronjones.x10.mx
  * License: GPLv2
@@ -27,7 +27,7 @@ class cameronjonesweb_fluid_customizer {
 
 		define( 'CJW_FC_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 		define( 'CJW_FC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-		define( 'CJW_FC_PLUGIN_VER', '1.0' );
+		define( 'CJW_FC_PLUGIN_VER', '1.0.0' );
 
 		add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), array( $this, 'fluid_customizer_plugin_action_links' ) );
 
